@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Backups locales (no forman parte del entregable)
+*.bak
+
+# Entorno
+.venv/
+venv/
+
+# Entregables calificables (no se publican en el repo público)
+Informe_Tecnico_PA02.docx
+Presentacion_PA02.pptx
