@@ -23,20 +23,3 @@ web interactiva en Streamlit.
 | `graficas/` | Figuras generadas por el EDA y el modelado. |
 | `CAMBIOS.md` | Bitácora de cambios y correcciones. |
 
-## ▶️ Ejecutar localmente
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-En Windows también puedes usar `iniciar_app.bat`.
-
-## ☁️ Desplegar en Streamlit Community Cloud
-
-1. Entra a https://share.streamlit.io e inicia sesión con GitHub.
-2. **New app** → elige este repositorio, rama `main`, archivo `app.py`.
-3. **Deploy**. Streamlit instala `requirements.txt` y publica una URL pública.
-
-> Los modelos `.pkl` se entrenaron con **scikit-learn 1.9.0** (fijado en
-> `requirements.txt`) para que carguen sin errores de versión en la nube.
