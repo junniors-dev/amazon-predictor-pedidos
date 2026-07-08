@@ -1,11 +1,11 @@
-# Dependencias del proyecto PA02_Amazon
-# Versiones fijadas a las usadas para entrenar los modelos .pkl
-# (scikit-learn debe coincidir para que joblib.load no falle en la nube).
-streamlit==1.58.0
-pandas==3.0.3
-numpy==2.4.6
-scikit-learn==1.9.0
-scipy==1.18.0
-joblib==1.5.3
-matplotlib==3.11.0
+# Dependencias del proyecto PA02_Amazon — Grupo 05
+# Versiones fijadas a las usadas para entrenar los modelos .pkl (Anaconda).
+# scikit-learn debe coincidir para que joblib.load no emita avisos.
+streamlit==1.51.0
+pandas==2.3.3
+numpy==2.3.5
+scikit-learn==1.7.2
+scipy==1.16.3
+joblib==1.5.2
+matplotlib==3.10.6
 seaborn==0.13.2

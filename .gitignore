@@ -11,7 +11,18 @@ __pycache__/
 # Entorno
 .venv/
 venv/
+.claude/
+anaconda_projects/
 
 # Entregables calificables (no se publican en el repo público)
 Informe_Tecnico_PA02.docx
 Presentacion_PA02.pptx
+
+# Artefactos intermedios: los regenera EDA.ipynb / MODELOS.ipynb
+# (el repo solo conserva el modelo final que necesita app.py)
+modelos/X_train.pkl
+modelos/X_test.pkl
+modelos/y_train.pkl
+modelos/y_test.pkl
+modelos/nombre_ganador.pkl
+resultados_avanzados.json
