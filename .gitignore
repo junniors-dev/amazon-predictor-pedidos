@@ -18,6 +18,12 @@ anaconda_projects/
 Informe_Tecnico_PA02.docx
 Presentacion_PA02.pptx
 
+# Notas y utilidades locales (no forman parte del codigo del proyecto)
+INSTRUCCIONES.md
+CAMBIOS.md
+INSTALAR_Y_EJECUTAR.bat
+iniciar_app.bat
+
 # Artefactos intermedios: los regenera EDA.ipynb / MODELOS.ipynb
 # (el repo solo conserva el modelo final que necesita app.py)
 modelos/X_train.pkl
