@@ -92,10 +92,20 @@ Reducción de dimensionalidad para inspeccionar la separabilidad de las clases:
 
 ## Ejecutar en local
 
+Requiere **Python 3.13** (ver nota abajo).
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+> **Python 3.14 no funciona.** `streamlit==1.51.0` exige `pyarrow<22`, y pyarrow solo
+> publica wheels para 3.14 a partir de la versión 22. No existe combinación válida: pip
+> intenta compilar pyarrow desde fuente y falla. El resto de dependencias fijadas
+> (numpy, pandas, scikit-learn) sí tienen wheels para 3.13 y 3.14.
+>
+> Al desplegar en Streamlit Community Cloud, selecciona **Python 3.13** en
+> *Advanced settings*.
 
 ## Contenido
 
